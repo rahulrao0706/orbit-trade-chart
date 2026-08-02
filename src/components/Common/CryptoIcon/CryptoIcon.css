@@ -1,0 +1,26 @@
+.crypto-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--crypto-icon-color, var(--color-bg-pill));
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  flex-shrink: 0;
+  line-height: 1;
+  overflow: hidden;
+}
+
+.crypto-icon--image {
+  background: transparent;
+}
+
+.crypto-icon__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

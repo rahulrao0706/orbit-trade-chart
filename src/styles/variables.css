@@ -1,0 +1,62 @@
+:root {
+  /* Backgrounds */
+  --color-bg-app: #0b0b10;
+  --color-bg-sidebar: #0e0e14;
+  --color-bg-card: #16161d;
+  --color-bg-card-alt: #1b1b23;
+  --color-bg-input: #17171f;
+  --color-bg-hover: #1f1f29;
+  --color-bg-pill: #202028;
+
+  /* Brand */
+  --color-primary: #ff2d78;
+  --color-primary-hover: #ff4b8c;
+  --color-accent-purple: #7b2ff7;
+
+  /* Text */
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #9a99a6;
+  --color-text-muted: #6f6e7a;
+  --color-text-link: #ff2d78;
+
+  /* Status */
+  --color-success: #1fd67a;
+  --color-warning: #ffb020;
+  --color-danger: #ff4d4f;
+
+  /* Borders */
+  --color-border: #26262f;
+  --color-border-light: #2f2f3a;
+  --color-border-dashed: #3a3a46;
+
+  /* Chart */
+  --color-chart-line: #ff2d78;
+  --color-chart-fill-start: rgba(255, 45, 120, 0.35);
+  --color-chart-fill-end: rgba(255, 45, 120, 0);
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+
+  /* Shadows */
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.25);
+  --shadow-popover: 0 8px 32px rgba(0, 0, 0, 0.4);
+
+  /* Layout */
+  --sidebar-width: 240px;
+  --sidebar-width-collapsed: 76px;
+  --header-height: 72px;
+  --statusbar-height: 40px;
+
+  /* Typography */
+  --font-family-base: 'Barlow Condensed', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-size-xs: 11px;
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 28px;
+  --font-size-xxl: 34px;
+}

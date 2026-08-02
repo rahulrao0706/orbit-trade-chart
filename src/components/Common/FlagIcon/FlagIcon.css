@@ -1,0 +1,32 @@
+.flag-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--color-bg-pill);
+  flex-shrink: 0;
+  line-height: 1;
+  overflow: hidden;
+}
+
+.flag-icon__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flag-icon--sm {
+  width: 28px;
+  height: 28px;
+}
+
+.flag-icon--md {
+  width: 36px;
+  height: 36px;
+}
+
+.flag-icon--lg {
+  width: 44px;
+  height: 44px;
+}

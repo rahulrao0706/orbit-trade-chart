@@ -1,0 +1,118 @@
+.crypto-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 8px;
+  border-top: 1px solid var(--color-border);
+}
+
+.crypto-row__drag {
+  display: flex;
+  color: var(--color-text-muted);
+  cursor: grab;
+  flex-shrink: 0;
+}
+
+.crypto-row--locked {
+  opacity: 0.6;
+}
+
+.crypto-row__dash {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-md);
+  font-weight: 700;
+}
+
+.crypto-row__identity {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 120px;
+}
+
+.crypto-row__code {
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.crypto-row__name {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+.crypto-row__balance {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  min-width: 150px;
+  text-align: right;
+}
+
+.crypto-row__amount {
+  font-size: var(--font-size-md);
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.crypto-row__inr {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+
+.crypto-row__masked-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  min-width: 90px;
+  margin-left: auto;
+}
+
+.crypto-row__masked-label-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}
+
+.crypto-row__masked-value {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.crypto-row__links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: 16px;
+  flex-shrink: 0;
+}
+
+.crypto-row__link {
+  border: none;
+  background: transparent;
+  color: var(--color-primary);
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+}
+
+@media (max-width: 900px) {
+  .crypto-row {
+    flex-wrap: wrap;
+  }
+  .crypto-row__links {
+    margin-left: 52px;
+  }
+}

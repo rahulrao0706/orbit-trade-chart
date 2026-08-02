@@ -1,0 +1,51 @@
+.promo-banner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  background: var(--color-bg-card);
+  border-bottom: 1px solid var(--color-border);
+  position: relative;
+}
+
+.promo-banner__bar {
+  width: 3px;
+  align-self: stretch;
+  border-radius: var(--radius-pill);
+  background: var(--color-success);
+  flex-shrink: 0;
+}
+
+.promo-banner__text {
+  flex: 1;
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+}
+
+.promo-banner__link {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.promo-banner__link:hover {
+  text-decoration: underline;
+}
+
+.promo-banner__close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: none;
+  background: transparent;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  flex-shrink: 0;
+}
+
+.promo-banner__close:hover {
+  background: var(--color-bg-hover);
+  color: var(--color-text-primary);
+}

@@ -1,0 +1,8 @@
+import './Badge.css'
+
+const Badge = ({ children, variant = 'default', className = '' }) => {
+  const classes = ['badge', `badge--${variant}`, className].filter(Boolean).join(' ')
+  return <span className={classes}>{children}</span>
+}
+
+export default Badge

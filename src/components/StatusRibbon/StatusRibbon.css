@@ -1,0 +1,49 @@
+.status-ribbon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  margin: 4px 0;
+}
+
+.status-ribbon__label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  color: #fff;
+}
+
+.status-ribbon__message {
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.85);
+  white-space: nowrap;
+}
+
+.status-ribbon--upcoming {
+  background: linear-gradient(90deg, #7b2ff7, rgba(123, 47, 247, 0.15));
+}
+
+.status-ribbon--premium {
+  background: linear-gradient(90deg, #ff2d78, #b8860b);
+}
+
+.status-ribbon--delisting {
+  background: linear-gradient(90deg, #e53e3e, rgba(229, 62, 62, 0.15));
+}
+
+.status-ribbon--limitedTime {
+  background: linear-gradient(90deg, #2563eb, rgba(37, 99, 235, 0.15));
+}
+
+.status-ribbon--delisted {
+  background: linear-gradient(90deg, #7a1f24, rgba(122, 31, 36, 0.15));
+}
+
+.status-ribbon--converted {
+  background: linear-gradient(90deg, #7a1f24, rgba(122, 31, 36, 0.15));
+}

@@ -1,0 +1,117 @@
+.balance-card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.balance-card__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.balance-card__title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.balance-card__title {
+  font-size: var(--font-size-md);
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.balance-card__eye {
+  color: var(--color-text-muted);
+}
+
+.balance-card__ranges {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--color-bg-pill);
+  padding: 4px;
+  border-radius: var(--radius-sm);
+}
+
+.balance-card__range-btn {
+  height: 28px;
+  padding: 0 12px;
+  border: none;
+  background: transparent;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.balance-card__range-btn--active {
+  background: var(--color-bg-hover);
+  color: var(--color-text-primary);
+}
+
+.balance-card__body {
+  display: flex;
+  align-items: stretch;
+  gap: 32px;
+}
+
+.balance-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex-shrink: 0;
+  min-width: 260px;
+}
+
+.balance-card__amount-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.balance-card__amount {
+  font-size: var(--font-size-xxl);
+  font-weight: 800;
+  color: var(--color-text-primary);
+  letter-spacing: -0.5px;
+}
+
+.balance-card__change {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  background: rgba(31, 214, 122, 0.15);
+  color: var(--color-success);
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+}
+
+.balance-card__approx {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-base);
+}
+
+.balance-card__actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .balance-card__body {
+    flex-direction: column;
+  }
+  .balance-card__info {
+    min-width: 0;
+  }
+}
